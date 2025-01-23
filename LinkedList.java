@@ -32,7 +32,7 @@ int data = scanner.nextInt();
 list.addNode(data);
         }
 System.out.println("Linked List created");
-System.out.println("Linked List");
+System.out.print("Linked List");
 list.displayList();
 System.out.println("Length of the Linked List is:"+list.length());
 scanner.close();
