@@ -32,21 +32,21 @@ int data = scanner.nextInt();
 list.addNode(data);
         }
 System.out.println("Linked List created");
-System.out.print("Linked List");
+System.out.println("Linked List");
 list.displayList();
 System.out.println("Length of the Linked List is:"+list.length());
 scanner.close();
     }
 int length() 
     {
-  int count=0;
-      Node current=head;
-      while(current!=null);
-      {
-        count++;
-        current=current.next;
-      }
-      return count;
+        int count=0;
+        Node current=head;
+        while(current!=null)
+        {
+            count++;
+            current=current.next;
+        }
+        return count;
     }
 public void displayList() {
        Node current = head;
@@ -57,3 +57,4 @@ System.out.print(current.data + " -> ");
 System.out.println("null");
     }
 }
+
